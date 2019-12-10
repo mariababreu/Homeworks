@@ -1,0 +1,6 @@
+print("I am going to check if all the letters in the word apper 3 times. For example aabbggttddiippkkss is valid")
+word = input("Which word do you think that would suit this?")
+if word[::3] == word[1::3]:
+    print("All the letters are tripled")
+else:
+    print("Not all the letters are here 3 times")
